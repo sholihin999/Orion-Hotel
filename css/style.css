@@ -1,0 +1,280 @@
+.text-custom {
+    color: #a98c64 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bellefair', serif;
+}
+
+.btn-book-now {
+    background-color: #a98c64 !important;
+    border-color: #a98c64 !important;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-book-now:hover {
+    background-color: #8a6b4f !important;
+    border-color: #8a6b4f !important;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #a98c64;
+}
+
+.breadcrumb-item a:hover {
+    color: #8a6b4f;
+}
+
+.hotel-profile {
+    background-color: #f8f9fa;
+}
+
+.hotel-profile h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.hotel-profile p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.rooms {
+    background-color: #fff;
+}
+
+.rooms h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.card {
+    margin-bottom: 2rem;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.locations {
+    background-color: #f8f9fa;
+}
+
+.locations h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.locations .card {
+    margin-bottom: 2rem;
+}
+
+.locations .card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.pricing {
+    background-color: #fff;
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.promotions {
+    background-color: #f8f9fa;
+}
+
+.promotions h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.promotions .card {
+    margin-bottom: 2rem;
+}
+
+.promotions .card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.promotions-table {
+    background-color: #fff;
+}
+
+.promotions-table h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.facilities {
+    background-color: #f8f9fa;
+}
+
+.facilities h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.facilities i {
+    color: #a98c64;
+}
+
+.gallery {
+    background-color: #fff;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.btn-show-more {
+    background-color: #a98c64 !important;
+    border-color: #a98c64 !important;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-show-more:hover {
+    background-color: #8a6b4f !important;
+    border-color: #8a6b4f !important;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #555;
+}
+
+.footer h5 {
+    color: #a98c64;
+}
+
+.footer a {
+    color: #a98c64;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #8a6b4f;
+}
+
+.booking-form {
+    background-color: #fff;
+}
+
+.booking-form h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.booking-form .form-label {
+    font-size: 1rem;
+    color: #555;
+}
+
+.booking-form .form-control, .booking-form .form-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+.booking-form .btn-book-now {
+    background-color: #a98c64 !important;
+    border-color: #a98c64 !important;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.booking-form .btn-book-now a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.booking-form .btn-book-now:hover {
+    background-color: #8a6b4f !important;
+    border-color: #8a6b4f !important;
+}
+
+@media (max-width: 768px) {
+    .hotel-profile img {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .hotel-profile img {
+        width: 75%;
+        height: auto;
+    }
+    .carousel-item img {
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .hotel-profile img {
+        width: 50%;
+        height: auto;
+    }
+    .carousel-item img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .card {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .card {
+        flex: 0 0 33.33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        flex: 0 0 25%;
+    }
+}
